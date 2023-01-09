@@ -680,6 +680,9 @@
     #define DEFAULT_Kp  19.47
     #define DEFAULT_Ki   1.59
     #define DEFAULT_Kd  59.40
+//11:11:25.471 > #define DEFAULT_Kp 27.95
+//11:11:25.472 > #define DEFAULT_Ki 2.75
+//11:11:25.472 > #define DEFAULT_Kd 70.99
   #endif
 #endif
 
@@ -766,6 +769,12 @@
   #define DEFAULT_bedKp 690.34
   #define DEFAULT_bedKi 111.47
   #define DEFAULT_bedKd 1068.83
+
+//11:04:41.115 > PID Autotune finished! Put the last Kp, Ki and Kd constants from below into Configuration.h
+//11:04:41.119 > //action:notification PID tuning done
+//11:04:41.120 > #define DEFAULT_bedKp 161.67
+//11:04:41.122 > #define DEFAULT_bedKi 31.83
+//11:04:41.123 > #define DEFAULT_bedKd 547.42
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
